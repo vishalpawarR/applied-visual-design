@@ -432,3 +432,11 @@ Finally, in the `heart::before` selector, set its `content` property to an empty
 > Note that ms stands for milliseconds, where 1000ms is equal to 1s.
 
 - Use CSS `@keyframes` to change the `background-color` of the button element so it becomes #4791d0 when a user hovers over it. The `@keyframes` rule should only have an entry for 100%.
+
+## 42 - Animation-fill-mode :
+
+- That's great, but it doesn't work right yet. Notice how the animation resets after `500ms` has passed, causing the button to revert back to the original color. You want the button to stay highlighted.
+
+This can be done by setting the `animation-fill-mode` property to `forwards`. The `animation-fill-mode` specifies the style applied to an element when the animation has finished. You can set it like so:
+
+`animation-fill-mode: forwards;`
