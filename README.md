@@ -268,3 +268,19 @@ Note: For all color challenges: Using color can be a powerful way to add visual 
 ## 30 - hsl() :
 
 - The `hsl()` option in CSS also makes it easy to adjust the tone of a color. Mixing white with a pure hue creates a tint of that color, and adding black will make a shade. Alternatively, a tone is produced by adding gray or by both tinting and shading. Recall that the `'s'` and `'l'` of `hsl()` stand for `saturation` and `lightness`, respectively. The saturation percent changes the amount of gray and the lightness percent determines how much white or black is in the color. This is useful when you have a base hue you like, but need different variations of it.
+
+## 31 - background & linear-gradient :
+
+- Applying a color on HTML elements is not limited to one flat hue. CSS provides the ability to use color transitions, otherwise known as gradients, on elements. This is accessed through the background property's linear-gradient() function. Here is the general syntax:
+
+```css
+background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+```
+
+- The first argument specifies the direction from which color transition starts - it can be stated as a degree, where 90deg makes a horizontal gradient (from left to right) and 45deg makes a diagonal gradient (from bottom left to top right). The following arguments specify the order of colors used in the gradient.
+
+Example:
+
+```css
+background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));
+```
