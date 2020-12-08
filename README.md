@@ -405,3 +405,30 @@ Finally, in the `heart::before` selector, set its `content` property to an empty
 ```
 
 - For the element with the `anim` id, the code snippet above sets the `animation-name` to colorful and sets the `animation-duration` to 3 seconds. Then the `@keyframes` rule links to the animation properties with the name `colorful`. It sets the color to blue at the beginning of the animation (0%) which will transition to yellow by the end of the animation (100%). You aren't limited to only beginning-end transitions, you can set properties for the element for any percentage between 0% and 100%.
+
+## 41 - Animation continued :
+
+- You can use CSS `@keyframes` to change the color of a button in its hover state.
+
+- Here's an example of changing the width of an image on hover:
+
+```css
+<style>
+  img:hover {
+    animation-name: width;
+    animation-duration: 500ms;
+  }
+
+  @keyframes width {
+    100% {
+      width: 40px;
+    }
+  }
+</style>
+
+<img src="https://bit.ly/smallgooglelogo" alt="Google's Logo" />
+```
+
+> Note that ms stands for milliseconds, where 1000ms is equal to 1s.
+
+- Use CSS `@keyframes` to change the `background-color` of the button element so it becomes #4791d0 when a user hovers over it. The `@keyframes` rule should only have an entry for 100%.
