@@ -326,3 +326,19 @@ p:hover {
 ```
 
 > Note: Applying a transform to a div element will also affect any child elements contained in the div.
+
+## 36 - skewX() :
+
+- The next function of the transform property is skewX(), which skews the selected element along its X (horizontal) axis by a given degree.
+
+- The following code skews the paragraph element by -32 degrees along the X-axis.
+
+```css
+p {
+  transform: skewX(-32deg);
+}
+```
+
+## 37 - skewY() :
+
+- Given that the `skewX()` function skews the selected element along the X-axis by a given degree, it is no surprise that the `skewY()` property skews an element along the Y (vertical) axis.
