@@ -136,3 +136,22 @@ A value of 0 is completely transparent.
 ## 17 - line-height :
 
 - CSS offers the line-height property to change the height of each line in a block of text. As the name suggests, it changes the amount of vertical space that each line of text gets.
+
+# pseudo-classes :
+
+## 18 - :hover :
+
+- This challenge will touch on the usage of pseudo-classes. A pseudo-class is a keyword that can be added to selectors, in order to select a specific state of the element.
+
+- For example, the styling of an anchor tag can be changed for its hover state using the `:hover` pseudo-class selector. Here's the CSS to change the `color` of the anchor tag to red during its hover state:
+
+```css
+<style>
+  a {
+    color: #000;
+  }
+  a:hover {
+    color: blue;
+  }
+</style>
+```
