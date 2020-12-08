@@ -194,6 +194,12 @@ p {
 - float is a positioning property which is used to keep the elements to float side by side like ballon.
 - The next positioning tool does not actually use `position`, but sets the `float` property of an element. Floating elements are removed from the normal flow of a document and pushed to either the `left` or `right` of their containing parent element. It's commonly used with the `width` property to specify how much horizontal space the floated element requires.
 
-## - sticky :
+## 24 - sticky :
 
 - When elements are positioned to overlap (i.e. using `position: absolute | relative | fixed | sticky)`, the element coming later in the HTML markup will, by default, appear on the top of the other elements. However, the `z-index` property can specify the order of how elements are stacked on top of one another. It must be an integer (i.e. a whole number and not a decimal), and higher values for the `z-index` property of an element move it higher in the stack than those with lower values.
+
+## 25 - margin :
+
+- Another positioning technique is to center a block element horizontally. One way to do this is to set its `margin` to a value of auto.
+
+- This method works for images, too. Images are inline elements by default, but can be changed to block elements when you set the `display` property to block.
