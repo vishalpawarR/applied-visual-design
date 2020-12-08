@@ -128,3 +128,7 @@ A value of 0 is completely transparent.
 - You set the font-size of each heading tag in the last challenge, here you'll adjust the font-weight.
 
 - The font-weight property sets how thick or thin characters are in a section of text.
+
+## 16 - font-size :
+
+- The font-size property in CSS is not limited to headings, it can be applied to any element containing text.
