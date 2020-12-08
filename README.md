@@ -39,6 +39,10 @@ To make text bold, you can use the strong tag. This is often used to draw attent
 
 To underline text, you can use the u tag. This is often used to signify that a section of text is important, or something to remember. With the u tag, the browser applies the CSS of text-decoration: underline; to the element.
 
-## font-style italic :
+## 6 - font-style italic :
 
 To emphasize text, you can use the em tag. This displays text as italicized, as the browser applies the CSS of font-style: italic; to the element.
+
+## 7 - text-decoration: line-through :
+
+To strikethrough text, which is when a horizontal line cuts across the characters, you can use the s tag. It shows that a section of text is no longer valid. With the s tag, the browser applies the CSS of text-decoration: line-through; to the element.
