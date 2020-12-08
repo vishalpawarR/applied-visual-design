@@ -441,7 +441,7 @@ This can be done by setting the `animation-fill-mode` property to `forwards`. Th
 
 `animation-fill-mode: forwards;`
 
-## Movement using css animation :
+## 43 - Movement using css animation :
 
 - When elements have a specified `position`, such as `fixed` or `relative`, the CSS offset properties `right`, `left`, `top`, and `bottom` can be used in animation rules to create movement.
 
@@ -464,8 +464,18 @@ This can be done by setting the `animation-fill-mode` property to `forwards`. Th
 }
 ```
 
-## Fading using animation
+## 44 - Fading using animation
 
 - For this challenge, you'll change the `opacity` of an animated element so it gradually fades as it reaches the right side of the screen.
 
 In the displayed animation, the round element with the gradient background moves to the right by the 50% mark of the animation per the `@keyframes` rule.
+
+## 45 - animation-iteration-count :
+
+- The previous challenges covered how to use some of the animation properties and the `@keyframes` rule. Another animation property is the `animation-iteration-count`, which allows you to control how many times you would like to loop through the animation. Here's an example:
+
+```css
+animation-iteration-count: 3;
+```
+
+- In this case the animation will stop after running 3 times, but it's possible to make the animation run continuously by setting that value to infinite.
