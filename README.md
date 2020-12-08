@@ -132,3 +132,7 @@ A value of 0 is completely transparent.
 ## 16 - font-size :
 
 - The font-size property in CSS is not limited to headings, it can be applied to any element containing text.
+
+## 17 - line-height :
+
+- CSS offers the line-height property to change the height of each line in a block of text. As the name suggests, it changes the amount of vertical space that each line of text gets.
