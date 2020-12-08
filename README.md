@@ -298,3 +298,7 @@ For this example, it helps to think about the color stops as pairs where every t
 0px [yellow -- blend -- blue] 40px [green -- blend -- red] 80px
 
 If every two color stop values are the same color, the blending isn't noticeable because it's between the same color, followed by a hard transition to the next color, so you end up with stripes.
+
+## 33 - url() :
+
+- One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The `background` property supports the `url()` function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
