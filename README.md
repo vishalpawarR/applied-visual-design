@@ -119,6 +119,12 @@ A value of 0 is completely transparent.
 | inherit    | Use the text-transform value from the parent element |
 | none       | Default: Use the original text                       |
 
-## 14 - font-size
+## 14 - font-size :
 
 - The font-size property is used to specify how large the text is in a given element. This rule can be used for multiple elements to create visual consistency of text on a page. In this challenge, you'll set the values for all h1 through h6 tags to balance the heading sizes.
+
+## 15 - font-weight :
+
+- You set the font-size of each heading tag in the last challenge, here you'll adjust the font-weight.
+
+- The font-weight property sets how thick or thin characters are in a section of text.
