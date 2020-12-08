@@ -463,3 +463,9 @@ This can be done by setting the `animation-fill-mode` property to `forwards`. Th
   }
 }
 ```
+
+## Fading using animation
+
+- For this challenge, you'll change the `opacity` of an animated element so it gradually fades as it reaches the right side of the screen.
+
+In the displayed animation, the round element with the gradient background moves to the right by the 50% mark of the animation per the `@keyframes` rule.
