@@ -239,3 +239,7 @@ Note: For all color challenges: Using color can be a powerful way to add visual 
 | orange    | #FF7F00  |
 | cyan      | #00FFFF  |
 | raspberry | #FF007F  |
+
+## 28 - Complementary color :
+
+- The Complementary Colors challenge showed that opposite colors on the color wheel can make each other appear more vibrant when placed side-by-side. However, the strong visual contrast can be jarring if it's overused on a website, and can sometimes make text harder to read if it's placed on a complementary-colored background. In practice, one of the colors is usually dominant and the complement is used to bring visual attention to certain content on the page.
