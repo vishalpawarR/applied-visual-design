@@ -31,6 +31,10 @@ img {
 
 You can specify the height of an element using the height property in CSS, similar to the width property. Here's an example that changes the height of an image to 20px:
 
-## 4 - font-weight :
+## 4 - font-weight: bold :
 
 To make text bold, you can use the strong tag. This is often used to draw attention to text and symbolize that it is important. With the strong tag, the browser applies the CSS of font-weight: bold; to the element.
+
+## 5 - font-decoration:underline :
+
+To underline text, you can use the u tag. This is often used to signify that a section of text is important, or something to remember. With the u tag, the browser applies the CSS of text-decoration: underline; to the element.
