@@ -303,7 +303,7 @@ If every two color stop values are the same color, the blending isn't noticeable
 
 - One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The `background` property supports the `url()` function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
 
-## 34 - transform & scale() :
+## 34 - transform scale() property :
 
 - To change the scale of an element, CSS has the `transform` property, along with its `scale()` function. The following code example doubles the size of all the paragraph elements on the page:
 
@@ -312,3 +312,17 @@ p {
   transform: scale(2);
 }
 ```
+
+## 35 - transform scale property continued :
+
+- The `transform` property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as `:hover` that specify a certain state of an element, the `transform` property can easily add interactivity to your elements.
+
+- Here's an example to scale the paragraph elements to 2.1 times their original size when a user hovers over them:
+
+```css
+p:hover {
+  transform: scale(2.1);
+}
+```
+
+> Note: Applying a transform to a div element will also affect any child elements contained in the div.
