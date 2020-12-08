@@ -104,11 +104,11 @@ A value of 0 is completely transparent.
 
 - The value given will apply to the entire element, whether that's an image with some transparency, or the foreground and background colors for a block of text.
 
-## 13 -
+## 13 - text-transform :
 
 - The text-transform property in CSS is used to change the appearance of text. It's a convenient way to make sure text on a webpage appears consistently, without having to change the text content of the actual HTML elements.
 
-\*The following table shows how the different text-transformvalues change the example text "Transform me".
+* The following table shows how the different text-transformvalues change the example text "Transform me".
 
 | Value      | Result                                               |
 | ---------- | ---------------------------------------------------- |
@@ -118,3 +118,7 @@ A value of 0 is completely transparent.
 | initial    | Use the default value                                |
 | inherit    | Use the text-transform value from the parent element |
 | none       | Default: Use the original text                       |
+
+## 14 - font-size
+
+- The font-size property is used to specify how large the text is in a given element. This rule can be used for multiple elements to create visual consistency of text on a page. In this challenge, you'll set the values for all h1 through h6 tags to balance the heading sizes.
