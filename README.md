@@ -302,3 +302,13 @@ If every two color stop values are the same color, the blending isn't noticeable
 ## 33 - url() :
 
 - One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The `background` property supports the `url()` function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
+
+## 34 - transform & scale() :
+
+- To change the scale of an element, CSS has the `transform` property, along with its `scale()` function. The following code example doubles the size of all the paragraph elements on the page:
+
+```css
+p {
+  transform: scale(2);
+}
+```
